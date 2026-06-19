@@ -1,0 +1,123 @@
+body {
+    background-color: #f5f5f5;
+    color: #222222;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 70px 20px 20px 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Arial Black', sans-serif;
+    text-align: center;
+    scroll-margin-top: 80px;
+}
+
+h1 {
+    color: #ff6600;
+    font-size: 28px;
+}
+
+h1::after {
+    content: " 🏆";
+}
+
+h2 {
+    color: #0055ff;
+}
+
+h2::before {
+    content: "🔥 ";
+}
+
+a:link {
+    color: #0055ff !important;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #003399 !important;
+}
+
+a:hover {
+    color: #ff6600 !important;
+    text-decoration: underline;
+}
+
+a:active {
+    position: relative;
+    top: 2px;
+}
+
+ul, ol, dl {
+    background-color: #e6f0ff;
+    border-left: 5px solid #0055ff;
+    padding: 15px 15px 15px 40px;
+    margin: 20px 0;
+}
+
+li:first-child {
+    font-weight: bold;
+    color: #ff6600;
+}
+
+dt {
+    font-weight: bold;
+    color: #0055ff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff;
+}
+
+th, td {
+    border: 2px solid #ff6600;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #0055ff;
+    color: #ffffff;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 15px 0;
+    border-bottom: 3px solid #ff6600;
+    z-index: 1000;
+    text-align: center;
+}
+
+nav > a {
+    font-size: 20px;
+    margin: 0 15px;
+}
+
+.image-box {
+    display: block;
+    float: left;
+    margin: 0 20px 10px 0;
+    padding: 5px;
+    background-color: #ffffff;
+    border: 2px solid #0055ff;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #ff6600;
+    background-color: #ffe6cc;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.clear {
+    clear: both;
+}
